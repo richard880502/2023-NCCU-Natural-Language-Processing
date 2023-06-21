@@ -10,8 +10,8 @@ https://colab.research.google.com/drive/1ctn94PEX-WjhX8btMyh07oC7SV2_1HxE?usp=sh
 
 可以嘗試的方向包含但不限於以下幾項，請自行發揮創意。
 
--不同於 LMRS 的 tagging scheme
--特徵設計（bigrams, trigrams, ...） 
--特徵挑選（去除低頻特徵、無鑑別力的特徵等）
--特徵轉換（中文部首、字元類型、聲音）
--加入字典資訊作為特徵
+- 不同於 LMRS 的 tagging scheme
+- 特徵設計（bigrams, trigrams, ...） 
+- 特徵挑選（去除低頻特徵、無鑑別力的特徵等）
+- 特徵轉換（中文部首、字元類型、聲音）
+- 加入字典資訊作為特徵
