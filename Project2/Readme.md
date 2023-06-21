@@ -18,9 +18,9 @@ https://colab.research.google.com/drive/1ctn94PEX-WjhX8btMyh07oC7SV2_1HxE?usp=sh
 
 # solution
 我使用以下的方法
-- 將特徵設計修改成bigram
+- 將特徵設計修改成 **bigram**
 - 新增字典資訊作為特徵
-- 修改模型參數 (min_freq={20 -> 10}, max_iterations={300 -> 400})
+- 修改模型參數 (min_freq={__20__ -> __10__}, max_iterations={__300__ -> __400__})
 
 最終結果
 - Recall: 0.9419975832326347
