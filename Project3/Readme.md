@@ -11,7 +11,8 @@ https://colab.research.google.com/drive/1u5G_cNvquL9WZ9LhTgiiJ_FC0CqLVldo?usp=sh
 可以嘗試的方向包含但不限於以下幾項，請自行發揮創意。
 
 # solution
-利用 scheduler 提供的動態調整學習率，給予warm up 並逐步找到最佳的策略
-並且保存最佳的訓練結果
+- 利用 scheduler 提供的動態調整學習率，給予 warm up 並逐步找到最佳的策略
+- 並且保存最佳的訓練結果
+  
 最終Ｆ１分數約可以維持在０.６１~０.６２ (原始約０.58）
 
