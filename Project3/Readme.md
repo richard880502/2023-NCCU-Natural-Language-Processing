@@ -14,5 +14,5 @@ https://colab.research.google.com/drive/1u5G_cNvquL9WZ9LhTgiiJ_FC0CqLVldo?usp=sh
 - 利用 scheduler 提供的動態調整學習率，給予 warm up 並逐步找到最佳的策略
 - 並且保存最佳的訓練結果
   
-最終 **F1** 分數約可以維持在０.６１~０.６２ (原始約０.58）
+最終 **F1** 分數約可以維持在 0.61 ~ 0.62 (原始約０.58）
 
