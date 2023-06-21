@@ -15,3 +15,14 @@ https://colab.research.google.com/drive/1ctn94PEX-WjhX8btMyh07oC7SV2_1HxE?usp=sh
 - 特徵挑選（去除低頻特徵、無鑑別力的特徵等）
 - 特徵轉換（中文部首、字元類型、聲音）
 - 加入字典資訊作為特徵
+
+# solution
+我使用以下的方法
+- 將特徵設計修改成bigram
+- 新增字典資訊作為特徵
+- 修改模型參數 (min_freq={20 -> 10}, max_iterations={300 -> 400})
+
+最終結果
+- Recall: 0.9419975832326347
+- Precision: 0.9315789907447852
+- F1: 0.9367593191122604
